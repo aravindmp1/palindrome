@@ -1,8 +1,4 @@
 def reverse(string)
-  if string==string.reverse
-    puts true
-  else
-    puts false
-  end
+  string==string.reverse
 end
 reverse("hello")
